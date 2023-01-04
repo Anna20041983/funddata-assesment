@@ -3,45 +3,62 @@
 **Version 1.0.0**
 
 ## Description
-These are simple Python programs/codes to provide simple calculations of relevant 5 practicals.
-
+This is set of Practicals - five Jupyter notebooks with Python programs/codes showing simple calculations for different topics. 
+It also includes sixth separate Jupyter notebook with Python programs/codes with explanation of the basic fundamentals of the Normal Distribution.
 
 ## A list of items in the Fundamentals of Data Analysis Assesment:
-- Practicals
-    - Week 1
-    - Week 2
-    - Week 3
-    - Week 4
-    - Week 5
+- Practicals 
+    - Week 1 - Information Exercises
+    - Week 2 - Randomness Exercises
+    - Week 3 - Bias Exercises
+    - Week 4 - Outliers Exercises
+    - Week 5 - Data Cleansing Exercises
 - Normal Distribution Assignment
 
-
-- Task 2 - Program calculating BMI
-- Task 3 - Program creating a string and outputting every second letter in reverse order
-- Task 4 - Program that asks the user to input any positive integer and outputs the successive values of the following calculation
-- Task 5 - Program that outputs whether or not today is a weekday
-- Task 6 - Function to return square root of a number using Newtons Method
-- Task 7 - Program that reads in a text file and outputs the number of e's it contains
-- Task 8 - Program that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes
-
 ## How to use these
-1. Go to each individual task (from 2 to 8)
-2. In Task 2 please enter your weight in kg's and height in cm's (eg 65 kg's and 180 cm's). Your BMI will be calulated by the program (eg 20.06)
-3. In Task 3 please enter the following sentence: The quick brown fox jumps over the lazy dog. The program will output every second letter in reverse order
-4. In Task 4 please input a positive integer (eg 10) and at each step the program will calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one (eg 10, 5, 16, 8, 4, 2, 1)
-5. In Task 5 please run a program to check whether or not today is a weekday
-6. In Task 6 please enter a positive number (eg 14.5) to calculate an approximation of its square root (eg. approx 3.8)
-7. In Task 7 please enter a letter (eg e) to count the number of letters in Moby Dick text
-8. In Task 8 please run a program to to show the plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes
+1. Make sure that Python including Jupyter is installed on your machine (you can easily download Python via Anaconda from the internet).
+2. Go to my Github repository: https://github.com/Anna20041983/funddata-assesment
+3. Click the download button to save a copy of the repository on your machine.
+4. In CMDER or any other command line type 'Jupyter Notebook' and click enter.
+5. Once the Jupyter Notebook is opened in your default browser, go to each individual file (from Week 1 to Week 5 in Practicals Folder and Normal Distribution Notebook)
+6. In each individual Jupyter Notebook click on 'Kernel', then 'Restart & Run All' to run codes and generate graphs
 
 ## Inspiration
-- Task 2 - The formula for the code is based on information from the relevant website: https://dev.to/mindninjax/how-to-build-a-bmi-calculator-in-python-4g2g
-- Task 3 - Understanding on how to write a code is based on information form this website: https://stackoverflow.com/questions/766141/understanding-string-reversal-via-slicing
-- Task 4 - The code is based on information from this website: https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
-- Task 5 - The code is based on information from this website: https://www.pythonprogramming.in/how-to-find-current-day-is-weekday-or-weekends-in-python.html
-- Task 6 - The code is based on information from this website: https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method
-- Task 7 - The code is based on information from this website: https://www.sanfoundry.com/python-program-read-file-counts-number/; and Moby Dick text is based on informtaion from these two websites: https://www.gutenberg.org/ebooks/2701 & http://www.literaturepage.com/read/mobydick-599.html
-- Task 8 - The background style is based on information from this website: https://matplotlib.org/3.1.0/gallery/style_sheets/dark_background.html
+- Week 1 
+    - The information about undefined log zero is based on information from the relevant website: https://www.quora.com/What-is-the-proof-of-log-0-undefined
+- Week 2 
+    - Plot inspirations are taken form this website: https://numpy.org/doc/stable/reference/random/generator.html#distributions
+- Week 3
+    - The inspiration for real-world examples of different types of cognitive bias in based on this website: https://www.verywellmind.com/cognitive-biases-distort-thinking-2794763
+- Week 4 
+    - Plot inspirations are taken form these websites: 
+        - https://matplotlib.org/stable/plot_types/index
+        - http://seaborn.pydata.org/introduction.html#visualizing-dataset-structure
+- Week 5 
+    - Codes inspirations are based on information from these websites: 
+        - https://bobbyhadz.com/blog/python-remove-non-alphanumeric-characters-from-string
+        - https://favtutor.com/blogs/capitalize-first-letter-python
+- Normal Distribution Assignment
+    - Codes and general information are based on these websites: 
+        - https://en.wikipedia.org/wiki/Normal_distribution
+        - https://www.investopedia.com/terms/n/normaldistribution.asp
+        - https://uk.mathworks.com/help/stats/normal-distribution.html
+        - https://web.stanford.edu/~kcobb/hrp259/lecture6
+        - https://www.simplilearn.com/tutorials/statistics-tutorial/all-about-the-empirical-rule-in-statistics
+        - https://www.geeksforgeeks.org/python-68-95-99-7-rule-in-statistics/
+        - https://www.askpython.com/python/examples/mean-and-standard-deviation-python
+        - https://www.analyticsvidhya.com/blog/2021/07/empirical-rule-in-gaussian-distribution-or-normal-distribution-in-probability-and-statistics/
+        - https://stackoverflow.com/questions/10138085/how-to-plot-normal-distribution
+        - https://datagy.io/numpy-random-normal/
+        - https://www.bumc.bu.edu/public-health-learning-modules/lessons/module-11-introduction-and-learning-objectives/the-standard-normal-distribution
+        - https://shishirkant.com/normal-distribution-in-python/
+        - https://stackoverflow.com/questions/46375553/standard-normal-distribution-in-python
+        - https://www.youtube.com/watch?v=s83MgUsIg18
+        - https://www.statology.org/skewness-kurtosis-python/
+        - https://medium.com/@atanudan/kurtosis-skew-function-in-pandas-aa63d72e20de
+        - https://medium.com/@pritul.dave/everything-about-moments-skewness-and-kurtosis-using-python-numpy-df305a193e46
+        - https://studiousguy.com/real-life-examples-normal-distribution/
+        - https://www.statology.org/example-of-normal-distribution/
 
 ## Author
 
